@@ -5,7 +5,7 @@ export default function SignUp() {
   return (
     <>
       <section className="bg-gray-50 dark:bg-gray-900 h-screen">
-  <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-20 lg:py-16 lg:grid-cols-12">
+  <div className="grid  px-4 py-8 mx-auto lg:gap-20 lg:py-16 lg:grid-cols-12">
     <div className="w-full p-6 mx-auto bg-white rounded-lg shadow dark:bg-gray-800 sm:max-w-xl lg:col-span-6 sm:p-8">
       <a
         href="#"

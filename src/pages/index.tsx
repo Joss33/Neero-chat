@@ -38,13 +38,13 @@ export default function Home() {
       <Layout>
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
-            <div className="p-4 mx-auto max-w-screen-xl lg:px-6">
+            <div className="p-4 mx-auto  lg:px-6">
               <h2 className="text-2xl font-bold">
                 Home
               </h2>
             </div>
           </div>
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="py-8 px-4 mx-auto  lg:py-16 lg:px-6">
               <div className="mb-4 lg:mb-8">
                   <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Hello, Cristian!</h2>
                   <button type="button" onClick={handleToggleModalConnectChannel} className="text-blue-600 bg-transparent hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Connect Channels</button>

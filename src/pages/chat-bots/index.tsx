@@ -25,7 +25,7 @@ export default function ChatBots(){
       <Layout>
         <section className="bg-white dark:bg-gray-900 h-full ">
           <div className="w-full border-b mb-10">
-            <div className="p-4 mx-auto max-w-screen-xl lg:px-6">
+            <div className="p-4 mx-auto  lg:px-6">
               <div className="flex justify-between items-center">
                 <h2 className="text-2xl font-bold">
                   Zobot

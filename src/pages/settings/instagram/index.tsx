@@ -17,13 +17,13 @@ export default function Instagram(){
 
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
-            <div className="p-4 mx-auto max-w-7xl lg:px-6">
+            <div className="p-4 mx-auto  lg:px-6">
               <h2 className="text-2xl font-bold">
                 Settings
               </h2>
             </div>
           </div>
-          <div className="p-4 mx-auto max-w-7xl lg:px-6">
+          <div className="p-4 mx-auto  lg:px-6">
             <div className="row">
               <div className="hidden md:block col-2">
                 <SettingsNav/>
