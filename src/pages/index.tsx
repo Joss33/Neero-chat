@@ -4,6 +4,7 @@ import { useState } from "react";
 //Components
 import { Layout } from "@/components/layout";
 import { Modal } from "@/components/Modal";
+import Head from "next/head";
 
 export default function Home() {
 
@@ -30,6 +31,10 @@ export default function Home() {
   
   return (
     <>
+      <Head>
+        <title>Home | Neero</title>
+      </Head>
+
       <Layout>
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">

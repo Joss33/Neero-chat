@@ -1,9 +1,15 @@
 //Components
 import { Layout } from "@/components/layout";
+import Head from "next/head";
 
 export default function LiveChat() {
   return (
     <>
+
+      <Head>
+        <title>Live Chat | Neero</title>
+      </Head>
+
       <Layout>
 
         <div className="max-w-6xl mx-auto p-6">

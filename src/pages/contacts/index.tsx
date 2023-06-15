@@ -6,6 +6,7 @@ import { Modal } from "@/components/Modal";
 import { PhoneNumberInput } from "@/components/phoneNumberInput";
 //Externals
 import classNames from "classnames";
+import Head from "next/head";
 
 export default function Contacts() {
 
@@ -32,6 +33,11 @@ export default function Contacts() {
 
   return(
     <>
+
+      <Head>
+        <title>Contacts | Neero</title>
+      </Head>
+
       <Layout>
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b mb-10">
