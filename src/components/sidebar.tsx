@@ -23,7 +23,7 @@ export const Sidebar = () => {
               <Link
                 title="Home"
                 href="/"
-                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
+                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 dark:bg-gray-700 dark:bg-gray-600 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
                   'bg-blue-50 text-blue-500': activeRoute === '/',
                   'bg-white text-gray-400': activeRoute !== '/'
                 })}
@@ -43,7 +43,7 @@ export const Sidebar = () => {
               <Link
                 title="Contacts"
                 href="/contacts"
-                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
+                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 dark:bg-gray-700 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800", {
                   'bg-blue-50 text-blue-500': activeRoute === '/contacts',
                   'bg-white text-gray-400': activeRoute !== '/contacts'
                 })}
@@ -66,7 +66,7 @@ export const Sidebar = () => {
               <Link
                 title="Live Chat"
                 href="/live-chat"
-                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
+                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 dark:bg-gray-700 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800", {
                   'bg-blue-50 text-blue-500': activeRoute === '/live-chat',
                   'bg-white text-gray-400': activeRoute !== '/live-chat'
                 })}
@@ -80,7 +80,7 @@ export const Sidebar = () => {
               <Link
                 title="Chat bot"
                 href="/chat-bots"
-                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
+                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 dark:bg-gray-700 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800", {
                   'bg-blue-50 text-blue-500': activeRoute === '/chat-bots',
                   'bg-white text-gray-400': activeRoute !== '/chat-bots'
                 })}
@@ -95,7 +95,7 @@ export const Sidebar = () => {
               <Link
                 title="Settings"
                 href="/settings"
-                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700", {
+                className={classNames("flex items-center p-2 rounded-lg transition duration-75 dark:text-gray-400 dark:bg-gray-700 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800", {
                   'bg-blue-50 text-blue-500 ': activeRoute === '/settings',
                   'bg-white text-gray-400': activeRoute !== '/settings'
                 })}
@@ -111,7 +111,7 @@ export const Sidebar = () => {
           id="hide-secondary-sidenav-button"
           aria-controls="secondary-sidenav"
           type="button"
-          className="inline-flex absolute bottom-16 left-20 p-2 text-gray-500 rounded-full cursor-pointer dark:text-gray-400 hover:text-gray-900 hover:bg-gray-200 dark:hover:bg-gray-700 dark:bg-gray-900 dark:hover:text-white bg-white hidden"
+          className="inline-flex absolute bottom-16 left-20 p-2 text-gray-500 rounded-full cursor-pointer dark:text-gray-400 dark:bg-gray-700 hover:text-gray-900 hover:bg-gray-200 dark:hover:bg-gray-800 dark:bg-gray-900 dark:hover:text-white bg-white hidden"
         >
           <svg
             className="w-6 h-6"

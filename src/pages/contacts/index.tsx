@@ -43,7 +43,7 @@ export default function Contacts() {
           <div className="w-full border-b mb-10">
             <div className="p-4 mx-auto  lg:px-6">
               <div className="flex justify-between items-center">
-                <h2 className="text-2xl font-bold">
+                <h2 className="text-2xl dark:text-white font-bold">
                   Contacts
                 </h2>
                 <button onClick={handleToggleModal} type="button" className="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Create New Contact</button>

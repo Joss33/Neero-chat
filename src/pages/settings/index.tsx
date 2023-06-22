@@ -20,24 +20,24 @@ export default function Settings(){
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
             <div className="p-4 mx-auto  lg:px-6">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl dark:text-white font-bold">
                 Settings
               </h2>
             </div>
           </div>
           <div className="p-4 mx-auto  lg:px-6">
             <div className="row">
-              <div className="hidden md:block col-2">
+              <div className="hidden md:block col-2"> 
                 <SettingsNav/>
               </div>
               <div className="col">
-                <div className="bg-white rounded-lg h-full border p-5">
+                <div className="bg-white dark:bg-gray-800 rounded-lg h-full border p-5">
                   <div className="row">
                     <div className="col-12 mb-5">
                       <div className="row border-b">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Card URL Shortener
                             </h3>
                             <span className="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">PRO</span>
@@ -48,7 +48,7 @@ export default function Settings(){
                             <button
                               id="dropdownDefaultButton"
                               data-dropdown-toggle="dropdown"
-                              className="text-gray-700 border bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex justify-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-full"
+                              className="text-gray-700 border bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex justify-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 dark:text-white w-full"
                               type="button"
                             >
                               my.manychat.com{" "}
@@ -99,7 +99,7 @@ export default function Settings(){
 
                         </div>
                         <div className="col mb-5">
-                          <p className="text-base text-gray-500">
+                          <p className="text-base text-gray-500 dark:text-white">
                             All the data in Manychat will be displayed and exported according to this timezone. 
                           </p>
                         </div>
@@ -111,7 +111,7 @@ export default function Settings(){
                       <div className="row border-b">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Account Time Zone
                             </h3>
                           </div>
@@ -122,7 +122,7 @@ export default function Settings(){
                               id="dropdownSearchButton"
                               data-dropdown-toggle="dropdownSearch"
                               data-dropdown-placement="bottom"
-                              className="text-gray-700 border bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex justify-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-full"
+                              className="text-gray-700 border bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex justify-center items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 dark:text-white w-full"
                               type="button"
                             >
                               (UTC-05:00) - Colombia Standard{" "}
@@ -312,7 +312,7 @@ export default function Settings(){
                           </>
                         </div>
                         <div className="col mb-5">
-                          <p className="text-base text-gray-500">
+                          <p className="text-base text-gray-500 dark:text-white">
                             If you disable link shortening, we won’t be able to provide the Click-Through Rate (CTR) data
                           </p>
                         </div>
@@ -324,7 +324,7 @@ export default function Settings(){
                       <div className="row border-b">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Clone to Another Page
                             </h3>
                           </div>
@@ -333,7 +333,7 @@ export default function Settings(){
                           <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Clone This Bot</button>
                         </div>
                         <div className="col mb-5">
-                          <p className="text-base text-gray-500">
+                          <p className="text-base text-gray-500 dark:text-white">
                             Transfer all content of this bot to another page
                           </p>
                         </div>
@@ -345,7 +345,7 @@ export default function Settings(){
                       <div className="row border-b">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Use as Template
                             </h3>
                           </div>
@@ -354,7 +354,7 @@ export default function Settings(){
                           <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Create Bot Template</button>
                         </div>
                         <div className="col mb-5">
-                          <p className="text-base text-gray-500">
+                          <p className="text-base text-gray-500 dark:text-white">
                             Create a snapshot of this bot and share it via link
                           </p>
                         </div>
@@ -366,7 +366,7 @@ export default function Settings(){
                       <div className="row border-b">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Contacts Visibility
                             </h3>
                           </div>
@@ -378,7 +378,7 @@ export default function Settings(){
                           </div>
                         </div>
                         <div className="col mb-5">
-                          <p className="text-base text-gray-500">
+                          <p className="text-base text-gray-500 dark:text-white">
                             Hide all deleted and unsubscribed contacts and visitors
                           </p>
                         </div>
@@ -390,7 +390,7 @@ export default function Settings(){
                       <div className="row">
                         <div className="col mb-5">
                           <div className="flex items-center">
-                            <h3 className="text-base font-semibold mr-2">
+                            <h3 className="text-base dark:text-white font-semibold mr-2">
                               Leave Account
                             </h3>
                           </div>

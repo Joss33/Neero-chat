@@ -18,7 +18,7 @@ export default function Notifications(){
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
             <div className="p-4 mx-auto  lg:px-6">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl dark:text-white font-bold">
                 Settings
               </h2>
             </div>
@@ -31,13 +31,13 @@ export default function Notifications(){
               <div className="col">
                 <div className="row">
                   <div className="col-12 mb-4">
-                    <div className="bg-white rounded-lg border p-5">
+                    <div className="bg-white rounded-lg border p-5 dark:bg-gray-800 dark:border-gray-700">
                       <div className="row">
                         <div className="col-12 mb-5">
                           <div className="row">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   'Notify Assignees' Action
                                 </h3>
                                 <span className="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-blue-400 border border-blue-400">PRO</span>
@@ -110,7 +110,7 @@ export default function Notifications(){
 
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Enable to let Manychat send you notifications when a contact performs a specific action in your broadcasts, welcome messages, opt-in messages, etc.
                                 <br />
                                 <br />
@@ -123,20 +123,20 @@ export default function Notifications(){
                     </div>
                   </div>
                   <div className="col-12 mb-4">
-                    <div className="bg-white rounded-lg border p-5">
+                    <div className="bg-white rounded-lg border p-5 dark:bg-gray-800 dark:border-gray-700">
                       <div className="row ">
                         <div className="col-12 mb-5">
                           <div className="row border-b">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   Live Chat Desktop Notifications
                                 </h3>
                               </div>
                             </div>
                             <div className="col mb-5">
                               <>
-                                <h3 className="text-lg font-semibold mb-3">
+                                <h3 className="text-lg font-semibold mb-3 dark:text-white">
                                   Notify me when
                                 </h3>
                                 <div className="flex items-center mb-2">
@@ -188,7 +188,7 @@ export default function Notifications(){
 
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Enable instant popup notifications on your desktop about new messages and assigned conversations. If you don't see the notifications, check your system settings if notifications are on.
                               </p>
                             </div>
@@ -200,14 +200,14 @@ export default function Notifications(){
                           <div className="row">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   Live Chat Channel Notifications
                                 </h3>
                               </div>
                             </div>
                             <div className="col mb-5">
                               <>
-                                <h3 className="text-lg font-semibold mb-3">
+                                <h3 className="text-lg font-semibold mb-3 dark:text-white">
                                   Notify me when
                                 </h3>
                                 <div className="flex items-center mb-2">
@@ -227,7 +227,7 @@ export default function Notifications(){
                               </>
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Live Chat notifications to help you support your audience and track leads in channels connected below e.g. Mail, SMS, Telegram.
                               </p>
                             </div>
@@ -237,13 +237,13 @@ export default function Notifications(){
                     </div>
                   </div>
                   <div className="col-12">
-                    <div className="bg-white rounded-lg border p-5">
+                    <div className="bg-white rounded-lg border p-5 dark:bg-gray-800 dark:border-gray-700">
                       <div className="row">
                         <div className="col-12 mb-5">
                           <div className="row border-b">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   Messenger Notifications
                                 </h3>
                               </div>
@@ -278,7 +278,7 @@ export default function Notifications(){
 
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Opt-in to your bot to be able to receive bot notifications in Messenger and to preview bot content
                               </p>
                             </div>
@@ -288,7 +288,7 @@ export default function Notifications(){
                           <div className="row border-b">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   My Telegram for Notifications
                                 </h3>
                               </div>
@@ -298,7 +298,7 @@ export default function Notifications(){
 
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Opt-in to our bot to be able to receive bot notifications in Telegram
                               </p>
                             </div>
@@ -308,7 +308,7 @@ export default function Notifications(){
                           <div className="row border-b">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   My Email for Notifications
                                 </h3>
                               </div>
@@ -334,7 +334,7 @@ export default function Notifications(){
                           <div className="row">
                             <div className="col mb-5">
                               <div className="flex items-center">
-                                <h3 className="text-base font-semibold mr-2">
+                                <h3 className="text-base font-semibold text-white mr-2">
                                   My Phone Number for Notifications
                                 </h3>
                               </div>
@@ -358,7 +358,7 @@ export default function Notifications(){
                               </div>
                             </div>
                             <div className="col mb-5">
-                              <p className="text-base text-gray-500">
+                              <p className="text-base text-gray-500 dark:text-white">
                                 Add your phone number to receive SMS notifications. Please note that you will be charged for every SMS notification.
                               </p>
                             </div>

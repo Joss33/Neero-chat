@@ -39,15 +39,15 @@ export default function Home() {
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
             <div className="p-4 mx-auto  lg:px-6">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl dark:text-white font-bold">
                 Home
-              </h2>
+              </h2> 
             </div>
           </div>
           <div className="py-8 px-4 mx-auto  lg:py-16 lg:px-6">
               <div className="mb-4 lg:mb-8">
                   <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Hello, Cristian!</h2>
-                  <button type="button" onClick={handleToggleModalConnectChannel} className="text-blue-600 bg-transparent hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Connect Channels</button>
+                  <button type="button" onClick={handleToggleModalConnectChannel} className="text-blue-600 bg-transparent hover:bg-blue-50 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:text-white dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Connect Channels</button>
                   <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Try our campaign solutions for multiple uses</p>
               </div> 
               <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 mb-5">
@@ -59,7 +59,7 @@ export default function Home() {
                           <a role="button" onClick={handleToggleModalSolutionsConvert}>Convert your Instagram Comments into Sales</a>
                       </h2>
                       <div className="flex items-center space-x-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 dark:text-white">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
                         </svg>
 
@@ -76,7 +76,7 @@ export default function Home() {
                           <a role="button" onClick={handleToggleModalSolutionsUseStories}>Use Instagram Stories to Generate More Leads</a>
                       </h2>
                       <div className="flex items-center space-x-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 dark:text-white">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
                         </svg>
                           <div className="font-medium text-gray-500 text-sm dark:text-white">
@@ -92,7 +92,7 @@ export default function Home() {
                           <a role="button" onClick={handleToggleModalSolutionsShowYourSite}>Show off your site to new visitors</a>
                       </h2>
                       <div className="flex items-center space-x-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 dark:text-white">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
                         </svg>
                           <div className="font-medium text-gray-500 text-sm dark:text-white">
@@ -102,7 +102,7 @@ export default function Home() {
                   </article>
               </div>
               <ul className="flex flex-col">
-                <h3 className="text-base font-semibold mb-4">
+                <h3 className="text-base dark:text-white font-semibold mb-4">
                   Useful resources
                 </h3>
                 <li>

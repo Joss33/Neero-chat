@@ -13,12 +13,12 @@ export default function LiveChat() {
       <Layout>
 
         <div className="max-w-6xl mx-auto p-6">
-          <div className="bg-white rounded-lg overflow-hidden">
+          <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden">
             <div className="row">
               <div className="col-auto flex flex-col h-full ml-3">
                 <div className="bg-white w-full h-full">
-                  <div className="w-full flex justify-between items-center bg-white border-b py-6 px-4">
-                    <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 text-gray-700 rounded-lg">
+                  <div className="w-full flex justify-between items-center bg-white dark:bg-gray-800  border-b py-6 px-4">
+                    <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white text-gray-700 rounded-lg">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                         <path fillRule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clipRule="evenodd" />
                       </svg>
@@ -170,16 +170,16 @@ export default function LiveChat() {
 
               </div>
               <div className="col h-full">
-                <div className="w-full flex justify-between items-center bg-white border-b border-l py-6 px-8">
-                  <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 text-gray-700 rounded-lg">
+                <div className="w-full flex justify-between items-center bg-white dark:bg-gray-800 border-b border-l py-6 px-8">
+                  <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 text-gray-700 dark:hover:bg-gray-700 dark:text-white rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                       <path fillRule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clipRule="evenodd" />
                     </svg>
                   </button>
-                  <span className="text-gray-600 font-semibold text-center ">
+                  <span className="text-gray-600 dark:text-white  font-semibold text-center ">
                     Ina Roberson
                   </span>
-                  <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 text-gray-700 rounded-lg">
+                  <button className="flex justify-center items-center w-10 h-10 border-none hover:bg-gray-100 text-gray-700 dark:hover:bg-gray-700 dark:text-white rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4">
                       <path fillRule="evenodd" d="M10.5 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm0 6a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" clipRule="evenodd" />
                     </svg>
@@ -188,7 +188,7 @@ export default function LiveChat() {
 
                 <div className="flex flex-col w-full h-full border-l">
                   <div className="flex-grow h-full p-6">
-                    <article className="p-6 mb-6 text-base bg-green-50 rounded-lg dark:bg-green-700 border border-green-200 max-w-2xl ml-auto">
+                    <article className="p-6 mb-6 text-base bg-green-50 rounded-lg dark:bg-green-600 border border-green-200 max-w-2xl ml-auto">
                       <footer className="flex justify-between items-center mb-2">
                         <div className="flex items-center">
                           <p className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
@@ -199,7 +199,7 @@ export default function LiveChat() {
                             />
                             Michael Gough
                           </p>
-                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                          <p className="text-sm text-gray-600 dark:text-gray-200">
                             <time dateTime="2022-02-08" title="February 8th, 2022">
                               Feb. 8, 2022
                             </time>
@@ -258,7 +258,7 @@ export default function LiveChat() {
                           </ul>
                         </div>
                       </footer>
-                      <p className="text-gray-500 dark:text-gray-400 text-right">
+                      <p className="text-gray-500 dark:text-gray-200 text-right">
                         Very straight-to-point article. Really worth time reading. Thank you! But
                         tools are just the instruments for the UX designers. The knowledge of the
                         design tools are as important as the creation of the design strategy.
@@ -266,7 +266,7 @@ export default function LiveChat() {
                       <div className="flex justify-end items-center mt-4 space-x-4">
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"
@@ -285,7 +285,7 @@ export default function LiveChat() {
                         </button>
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"
@@ -316,7 +316,7 @@ export default function LiveChat() {
                             />
                             Jese Leos
                           </p>
-                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                          <p className="text-sm text-gray-600 dark:text-gray-200">
                             <time  dateTime="2022-02-12" title="February 12th, 2022">
                               Feb. 12, 2022
                             </time>
@@ -375,13 +375,13 @@ export default function LiveChat() {
                           </ul>
                         </div>
                       </footer>
-                      <p className="text-gray-500 dark:text-gray-400">
+                      <p className="text-gray-500 dark:text-gray-200">
                         Much appreciated! Glad you liked it ☺️
                       </p>
                       <div className="flex items-center mt-4 space-x-4">
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"
@@ -400,7 +400,7 @@ export default function LiveChat() {
                         </button>
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"
@@ -431,7 +431,7 @@ export default function LiveChat() {
                             />
                             Bonnie Green
                           </p>
-                          <p className="text-sm text-gray-600 dark:text-gray-400">
+                          <p className="text-sm text-gray-600 dark:text-gray-200">
                             <time dateTime="2022-03-12" title="March 12th, 2022">
                               Mar. 12, 2022
                             </time>
@@ -490,14 +490,14 @@ export default function LiveChat() {
                           </ul>
                         </div>
                       </footer>
-                      <p className="text-gray-500 dark:text-gray-400 text-right">
+                      <p className="text-gray-500 dark:text-gray-200 text-right">
                         The article covers the essentials, challenges, myths and stages the UX
                         designer should consider while creating the design strategy.
                       </p>
                       <div className="flex justify-end items-center mt-4 space-x-4">
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"
@@ -516,7 +516,7 @@ export default function LiveChat() {
                         </button>
                         <button
                           type="button"
-                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-400"
+                          className="flex items-center text-sm text-gray-500 hover:underline dark:text-gray-200"
                         >
                           <svg
                             aria-hidden="true"

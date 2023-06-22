@@ -18,7 +18,7 @@ export default function Sms(){
         <section className="bg-gray-50 dark:bg-gray-900 h-full ">
           <div className="w-full border-b">
             <div className="p-4 mx-auto  lg:px-6">
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl dark:text-white font-bold">
                 Settings
               </h2>
             </div>
@@ -31,16 +31,16 @@ export default function Sms(){
               <div className="col">
                 <div className="row">
                   <div className="col-12 mb-5">
-                    <h2 className="text-2xl font-bold">SMS</h2>
+                    <h2 className="text-2xl dark:text-white font-bold">SMS</h2>
                   </div>
                   <div className="col-12">
-                    <div className="bg-white rounded-lg h-full border p-5">
+                    <div className="bg-white dark:bg-gray-800 dark:border-gray-700 rounded-lg h-full border p-5">
                       <div className="row">
                         <div className="col-12 col-lg-7 mx-auto">
-                          <h2 className="font-bold text-2xl text-center mb-2">
+                          <h2 className="font-bold text-2xl dark:text-white text-center mb-2">
                             Text with customers
                           </h2>
-                          <p className="text-base text-center text-gray-500 mb-5">
+                          <p className="text-base text-center text-gray-500 dark:text-white mb-5">
                             90% of text messages are read within 3 minutes!
                             If you want to make sure your reminders, promotions and news are actually seen by your customers SMS marketing is for you. Learn more
                           </p>
