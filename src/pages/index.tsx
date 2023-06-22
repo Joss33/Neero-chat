@@ -244,19 +244,19 @@ export default function Home() {
           <div className="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
 
             <div className="">
-              <span className="text-xs text-gray-500 mb-5">Instagram</span>
-              <h2 className="text-3xl font-bold mb-10">
+              <span className="text-xs text-gray-500 dark:text-white mb-5">Instagram</span>
+              <h2 className="text-3xl font-bold mb-10 dark:text-white">
                 Convert your Instagram Comments into Sales
               </h2>
 
-              <p className="text-base font-semibold mb-3">Business Value</p>
-              <p className="text-base mb-5">
+              <p className="text-base font-semibold dark:text-white mb-3">Business Value</p>
+              <p className="text-base dark:text-white mb-5">
                 Convert comments into sales by sending your followers a text and a link to buy your products or register for your webinars or events. Maximize your social media presence and drive traffic to your website, leading to higher sales and revenue.
               </p> 
 
-              <p className="text-base font-semibold mb-3">How does it work?</p>
+              <p className="text-base font-semibold dark:text-white mb-3">How does it work?</p>
 
-              <ul className="list-decimal pl-5 mb-10">
+              <ul className="list-decimal dark:text-white pl-5 mb-10">
                 <li>
                   Convert comments into sales by sending your followers a text and a link to buy your products or register for your webinars or events.
                 </li>
@@ -274,7 +274,7 @@ export default function Home() {
               </button>
 
             </div>
-            <div className="bg-gray-50">
+            <div className="bg-gray-50 dark:bg-gray-700 py-4">
               <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
                 <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg" />
                 <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[124px] rounded-l-lg" />
@@ -297,19 +297,19 @@ export default function Home() {
           <div className="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
 
             <div className="">
-              <span className="text-xs text-gray-500 mb-5">Instagram</span>
-              <h2 className="text-3xl font-bold mb-10">
+              <span className="text-xs text-gray-500 dark:text-white mb-5">Instagram</span>
+              <h2 className="text-3xl font-bold dark:text-white mb-10">
                 Use Instagram Stories to Generate More Leads
               </h2>
 
-              <p className="text-base font-semibold mb-3">Business Value</p>
-              <p className="text-base mb-5">
+              <p className="text-base font-semibold dark:text-white mb-3">Business Value</p>
+              <p className="text-base dark:text-white mb-5">
                 Are you tired of manually managing your Instagram marketing funnel? Automate the process of sending followers a DM message with a link to buy your products or register for your webinars or events. Simply post an Instagram Story with a call to action for followers to reply with a specific keyword, and automation will do the rest. Maximize your Instagram marketing potential and drive more leads through Instagram Stories!
               </p> 
 
-              <p className="text-base font-semibold mb-3">How does it work?</p>
+              <p className="text-base font-semibold dark:text-white mb-3">How does it work?</p>
 
-              <ul className="list-decimal pl-5 mb-10">
+              <ul className="list-decimal dark:text-white pl-5 mb-10">
                 <li>
                   Your Follower replies to a story with a specific word.
                 </li>
@@ -327,7 +327,7 @@ export default function Home() {
               </button>
 
             </div>
-            <div className="bg-gray-50">
+            <div className="bg-gray-50 dark:bg-gray-700 py-4">
               <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
                 <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg" />
                 <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[124px] rounded-l-lg" />
@@ -350,19 +350,19 @@ export default function Home() {
           <div className="grid gap-4 mb-4 sm:grid-cols-2 sm:gap-6 sm:mb-5">
 
             <div className="">
-              <span className="text-xs text-gray-500 mb-5">Instagram</span>
-              <h2 className="text-3xl font-bold mb-10">
+              <span className="text-xs text-gray-500 dark:text-white mb-5">Instagram</span>
+              <h2 className="text-3xl font-bold dark:text-white mb-10">
                 Show off your site to new visitors
               </h2>
 
-              <p className="text-base font-semibold mb-3">Business Value</p>
-              <p className="text-base mb-5">
+              <p className="text-base font-semibold dark:text-white mb-3">Business Value</p>
+              <p className="text-base dark:text-white mb-5">
                 Guide contacts to the products and answers they're looking for using various keywords and messaging options. Use targeted questions in your automated flows to qualify contacts and direct them to their specific interest or destination.
               </p> 
 
-              <p className="text-base font-semibold mb-3">How does it work?</p>
+              <p className="text-base font-semibold dark:text-white mb-3">How does it work?</p>
 
-              <ul className="list-decimal pl-5 mb-10">
+              <ul className="list-decimal dark:text-white pl-5 mb-10">
                 <li>
                   You create multiple Keywords such as "price", "quantity", "buy", etc.
                 </li>
@@ -392,7 +392,7 @@ export default function Home() {
               </button>
 
             </div>
-            <div className="bg-gray-50">
+            <div className="bg-gray-50 dark:bg-gray-700 py-4">
               <div className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
                 <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[72px] rounded-l-lg" />
                 <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -left-[17px] top-[124px] rounded-l-lg" />
